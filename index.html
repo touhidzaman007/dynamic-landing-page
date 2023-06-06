@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Welcome</title>
+	</head>
+	<body>
+		<div class="my-hobby">
+			<h4 id="hobby-ques">What Is Your Hobby?</h4>
+			<span id="hobby" contenteditable="true">I Love Reading Book</span>
+		</div>
+		<div class="main-container">
+			<time id="time"></time>
+			<h1>
+				<span id="greeting"></span>
+				<span id="name" contenteditable="true"></span>
+			</h1>
+
+			<div class="search-form">
+				<form action="https://www.google.com/search" method="get" class="search-bar">
+					<input type="text" name="q" id="q" placeholder="Search here ...." autocomplete="off"/>
+					<button id="searchBtn" type="submit"><img src="img/search.png"></button>
+				</form>
+			</div>
+
+			<h2 id="focus-ques">What Is Your Focus For Today?</h2>
+			<h2 id="focus" contenteditable="true"></h2>
+			<script src="js/main.js"></script>
+		</div>
+	</body>
+</html>
